@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-quiv="content-Type" content="text/html; charset=utf-8">
+<title>Untitled document</title>
+</head>
+<body>
+    <div id="menu">
+        <style>
+            ul li{
+                list-style: none;
+            }
+            #wrapper{
+                width: 900px;
+                margin: auto;
+    
+            }
+            #logo{
+               float: left;
+               height: 10px;    
+            };
+            #logo img{
+                height: 20%;
+                width: auto;
+            }
+            ul#main_menu{
+                float: right;
+            }
+            ul#main_menu li{
+                float: left;
+            }
+            ul#main_menu a{
+                padding: 6px 40px;
+                text-decoration: none;
+                color: #000;
+            }
+        </style>
+        <div id="wrapper">
+            <div id="header">
+                <a href=""id=logo>
+                    <img src="image/logo3.png" alt="logo">
+                </a>
+                <ul id="main_menu">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Công thức</a></li>
+                    <li><a href="">Về chúng tôi</a></li>
+                    <li><a href="">Đăng ký</a></li>
+                </ul>
+    </div>
+    <div id="container">
+        <img src="https://png.pngtree.com/background/20210711/original/pngtree-tmall-taobao-high-end-gourmet-banner-late-night-canteen-picture-image_1099603.jpg" alt="bun bo"
+        style="width:920px;height:200px;">
+    <div id="banner"></div>
+    <div id="menu"></div>
+    <div id="leftbar">
+        <p>Trang chủ</p><p>Giới thiệu</p><p>Ẩm thực</p><p>Menu</p>
+    </div>
+    <div id="content">
+        <img src="image/bun-bo-1.jpg" alt="bun bo"
+        style="width:320px;height:200px;">     
+        <img src="https://spk.vn/wp-content/uploads/2021/04/van-hoa-am-thuc-viet-nam-xua-va-nay-da-co-nhung-thay-doi-nhu-the-nao-lau-tieu-cua-bap-bo.jpg" alt="banh ngot"
+        style="width:300px; height: 200x; float: right;">
+        <p>Bún Bò Huế</p>
+    </div>
+    <div id="rightbar">
+    </div>
+    <br style="clear:both;">
+    <div id="bottom">
+    </div>
+    <div id="footer"></div>
+    <style>
+        #container{width: 900px; margin: 0px auto;}
+        #menu{height: 30px;}
+        #leftbar{width: 100px; float: left}
+        #content{width: 650px; height: 50px; float: left;}
+        #rightbar{width: 300x; height: 50px ; float: right;}
+        #bottom{height: 30px; ;}
+    </style>
+    
+    </div>
+</body>
+</html>
